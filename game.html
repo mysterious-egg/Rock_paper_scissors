@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper & Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="main">
+        <br>
+        <h1 style=" font-family : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(237, 213, 0); text-align: center; font-size: 3em;">Rock Paper Scissors</h1>
+        <div id="score">
+            <span>
+                <span id="playerScore">0</span>
+                - 
+                <span id="compScore">0</span>
+            </span>
+        </div>
+    <div class="playground">
+        <div class="Player">
+        <span id = "name">Player</span>
+        <img id="move" src="" width="280px">
+        <div id = "moves">
+        <img src="./assets/paper-logo.png" alt="" id="paper-logo">
+        <img src="./assets/rock-logo.png" alt="" id="rock-logo">
+        <img src="./assets/scissors-logo.png" alt="" id="scissors-logo">
+        </div>
+        </div>
+        <img src="./assets/vs.png" alt="" id="versus">
+        <div class="computer">
+        <span id = "name">Comp</span>
+        <img id="compMove" src="" width="280px">
+        </div>
+    </div>
+    <div class = "result">
+        <span id = "matchResult"></span>
+        <div id = "playAgain" style="visibility: hidden;">Play Again
+        </div>
+    </div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>

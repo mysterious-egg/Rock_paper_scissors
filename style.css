@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    background: url("./assets/bg.png");
+    background-size: cover;
+    background-color: #0c0c0c;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#heading {
+    color: rgb(171, 152, 9);
+    font-size: 3.5em;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 90px;
+}
+
+#hand-img img {
+    width: 25%;
+    position: relative;
+    top: 110px;
+    left: 280px;
+}
+
+#play {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 800;
+    margin-right: 380px;
+    margin-top: 90px;
+    font-size: medium;
+}
+
+#play img {
+    width: 2.5%;
+    margin-right: 8px;
+}
+
+#score {
+    color: white;
+    font-size: 3.2em;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+.playground {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#versus {
+    width: 70px;
+    height: auto;
+}
+
+.Player,
+.computer {
+    border: 1px solid #ffc434;
+    height: 280px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+
+#moves {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.playground span {
+    color: white;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+}
+
+#paper-logo,
+#rock-logo,
+#scissors-logo {
+    width: 55px;
+    height: 55px;
+    position: sticky;
+}
+
+.computer img {
+    position: relative;
+    top: 40px;
+}
+
+.result {
+    display: flex;
+    color: white;
+    font-size: 1.8em;
+    align-items: center;
+    margin-top: 15px;
+    flex-direction: column;
+}
+
+#playAgain {
+    background-color: #ffc434;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 18px;
+    font-size: 0.5em;
+}
